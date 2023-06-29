@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tscStart": "tsc -w",
+    "nodeStart": "node --watch ./dist/script.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@prisma/client": "^4.16.1",
     "@types/node": "^20.3.2",
     "prisma": "^4.16.1",
     "ts-node": "^10.9.1",
